@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century gothic;
+}
+
+.header{
+	background-color: white;
+	height: 10vh;
+}
+
+/* body{
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 100%);
+    height: 500px;
+
+
+}
+
+.bg-holder{
+    width: 40%;
+    background-image: url(../bg-intro-desktop.svg);
+    background-size: cover;
+    margin-left: 500px;
+}
+
+.bg-holder img{
+    width: 75%;
+    height: 700px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+
+
+.text{
+    width: 30%;
+    height: 60px;
+    margin-top: 700px;
+}
+
+h1{
+   
+    font-size: 40px;
+    padding-left: 30px; 
+    padding-right: 15px;
+    padding-top: 330px;
+    padding-bottom: 120px;
+    height: 390px;
+    width: 1100px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 5px;
+    top: 20px;
+    position: absolute;
+}
+
+.pa{
+    color: hsl(233, 8%, 62%);
+    font-size: 19px;
+    padding-left: 30px; 
+    padding-right: 15px;
+    padding-top: 490px;
+    padding-bottom: 120px;
+    height: 390px;
+    width: 1100px;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 5px;
+    top: 20px;
+    text-align: left;
+    position: absolute;
+    font-family: public-sans;
+}
+
+ ul{
+	float: center;
+	list-style-type: none;
+	margin-top: 25px;
+    padding-left: 600px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: black;
+	color: white;
+}
+
+ul li .active a{
+	background-color: black;
+	color: white;
+}
+
+.logo img{
+	float: left;
+	width: 125px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+#button-1{
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    left: 1280px;
+    top: 10px;
+    border-radius: 24px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}  
+
+
+
+
+button{
+position: absolute;
+width: 176px;
+height: 55px;
+left: 80px;
+top: 650px;
+border-radius: 24px;
+border: none;
+background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+
+button a{
+    text-decoration: none;
+   
+}
+
+.easy-banking{
+    margin-top: 150px;
+    height: 100%;
+    background-color: hsl(0, 0%, 98%);
+    margin-left: 0px;
+    width: 100%;
+    height: 548px;
+}
+    
+
+
+.easy-bank{
+    margin-top: -300px;
+    padding-top: 1090px;
+    font-size: 40px;
+    color: hsl(233, 26%, 24%);
+    position: absolute;
+}
+
+.leverage{
+    padding-top: 150px;
+    font-size: 20px;
+    padding-left: 80px;
+    color: hsl(233, 8%, 62%);
+}
+
+/* .online-banking{
+    
+} */
+
+.online-banking{
+    padding: 0%;
+    margin: 0%;
+}
+
+h3{
+    margin-top: -430px;
+    padding-top: 200px;
+    padding-left: 80px;
+    font-size: 23px;
+    color: hsl(233, 26%, 24%)
+}
+
+.modern{
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 19px;
+    color:hsl(233, 8%, 62%)
+}
+
+
+.online-banking img{
+    margin-top: 105px;
+    margin-bottom: 250px;
+    margin-left: 80px;
+    position: absolute;
+}
+
+h4{
+    margin-top: -430px;
+    padding-top: 198px;
+    font-size: 23px;
+    color: hsl(233, 26%, 24%);
+    padding-left: 308px;
+    margin-left: 100px;
+}
+
+.p2{
+    padding-top: 29px;
+    padding-left: 405px;
+    font-size: 19px;
+    color:hsl(233, 8%, 62%);
+    
+}
+
+.simple-budgeting img{
+    margin-top: 105px;
+    margin-bottom: 250px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.simple-budgeting{
+    margin-top: 77px;
+}
+
+h5{
+    margin-top: -355px;
+    padding-top: 198px;
+    font-size: 23px;
+    color: hsl(233, 26%, 24%);
+    padding-left: 288px;
+    margin-left: 500px; 
+}
+
+.p3{
+    padding-top: 29px;
+    padding-left: 790px;
+    font-size: 19px;
+    color:hsl(233, 8%, 62%)
+}
+
+.fast-onboarding img{
+    position: absolute;
+    margin-top: 105px;
+    margin-bottom: 250px;
+    margin-left: 775px;
+}
+
+h6{
+    margin-top: -355px;
+    padding-top: 195px;
+    font-size: 23px;
+    color: hsl(233, 26%, 24%);
+    padding-left: 635px;
+    margin-left: 500px; 
+}
+
+.p4{
+    padding-top: 33px;
+    padding-left: 1140px;
+    font-size: 19px;
+    color:hsl(233, 8%, 62%)
+}
+
+/* .open.api{
+    margin-top: -400px;
+} */
+
+.open-api img{
+    position: absolute;
+    margin-top: 105px;
+    margin-bottom: 250px;
+    margin-left: 1130px;
+}
+
+
+
+.articles{
+    background-color: hsl(220, 16%, 96%);
+    width: 100%;
+    height: 578px;
+    margin-top: 50px;
+}
+
+.p{
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+.claire-money{
+    position: absolute;  
+    width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 525px;
+}
+
+.h9{
+    padding-top: 110px;
+}
+
+/* .latest-articles{
+    margin-top: 400px;
+} */
+
+.p5{
+    padding-top: 10px;
+    padding-left: 17px;
+    color: hsl(233, 8%, 62%);
+}
+
+.p6{
+    padding-top: 15px;
+    padding-left: 27px;
+    font-size: 23px;
+    color: hsl(233, 26%, 24%);
+}
+
+.p7{
+    padding-top: 25px;
+    padding-left: 17px;
+    font-size: 19px;
+    color: hsl(233, 8%, 62%);
+}
+
+.claire-money img{
+    width: 375px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+}
+
+.wilson-treat{
+    position: absolute;  
+    width: 25%;
+      background-color: hsl(0, 0%, 100%);
+      margin-left: 390px;
+      margin-top: 50px;
+      height: 525px;
+}
+
+.p8{
+    padding-top: 212px;
+    padding-left: 17px;
+    color: hsl(233, 8%, 62%); 
+}
+
+.p9{
+    padding-top: 20px;
+    font-size: 23px;
+    padding-left: 25px;
+    color: hsl(233, 26%, 24%);
+}
+
+.p10{
+    padding-top: 24px;
+    font-size: 19px;
+    padding-left: 25px;
+    color: hsl(233, 8%, 62%);
+}
+
+.wilson-treat img{
+    position: absolute;
+    width: 375px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+}
+
+.wilson-easybank{
+    position: absolute;  
+    width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 769px;
+    margin-top: 50px;
+    height: 525px;
+}
+
+.p11{
+    padding-top: 212px;
+    padding-left: 17px;
+    color: hsl(233, 8%, 62%); 
+}
+
+.p12{
+    padding-top: 20px;
+    font-size: 23px;
+    padding-left: 25px;
+    color: hsl(233, 26%, 24%);
+}
+
+.p13{
+    padding-top: 24px;
+    font-size: 19px;
+    padding-left: 25px;
+    color: hsl(233, 8%, 62%);
+}
+
+.wilson-easybank img{
+    position: absolute;
+    width: 375px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+}
+
+.claire-beta{
+    position: absolute;  
+    width: 25%;
+    background-color: white;
+    margin-left: 1139px;
+    margin-top: 50px;
+    height: 525px;
+}
+
+.p14{
+    padding-top: 212px;
+    padding-left: 17px;
+    color: hsl(233, 8%, 62%) 
+}
+
+.p15{
+    padding-top: 20px;
+    font-size: 23px;
+    padding-left: 25px;
+    color: hsl(233, 26%, 24%);
+}
+
+.p16{
+    padding-top: 24px;
+    font-size: 19px;
+    padding-left: 25px;
+    color: hsl(233, 8%, 62%);
+}
+
+.claire-beta img{
+    position: absolute;
+    width: 360px;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 200px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: hsl(233, 26%, 24%);
+    margin-top: 110px;
+}
+
+.icons{
+    display: flex;
+    margin-top: 105px;
+    list-style: none;
+}
+
+.icon-1{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.icon-2{
+    padding-left: 15px;
+    padding-top: 150px;
+}
+
+.icon-3{
+    padding-left: 18px;
+    padding-top: 150px;
+}
+
+.icon-4{
+    padding-left: 20px;
+    padding-top: 150px;
+}
+
+.icon-5{
+    padding-left: 22px;
+    padding-top: 150px;
+}
+
+.menu{
+    padding-left: 550px;
+    padding-top: -250px;
+    margin-top: -50px;
+    color: white;
+    list-style: none;
+}
+
+.menu-1{
+    margin-top: -135px;
+    font-size: 19px;
+}
+
+.menu-2{
+    margin-top: 25px;
+    font-size: 19px;
+    position: absolute;
+}
+
+.menu-3{
+    margin-top: 82px;
+    font-size: 19px;
+    position: absolute;
+}
+
+.menu1{
+    padding-left: 800px;
+    font-size: 19px;
+    color: white;
+    list-style: none;
+}
+
+.menu-4{
+    margin-top: -27px;
+    position: absolute;
+}
+
+.menu-5{
+    margin-top: 25px;
+    font-size: 19px;
+    position: absolute;
+}
+
+.menu-6{
+    margin-top: 85px;
+    position: absolute;
+}
+
+#button-2{
+    margin-left: -35px;
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    left: 1280px;
+    top: 10px;
+    border-radius: 24px;
+    border: none;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%));
+    margin-top: 2025px;
+}
+
+.logo-2{
+    float: left;
+    width: 125px;
+	height: auto;
+}
+
+.easybank-rights{
+    margin-left: 1200px;
+    margin-top: 100px;
+}
+
